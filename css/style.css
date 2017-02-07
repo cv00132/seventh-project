@@ -1,0 +1,43 @@
+.accordion {
+  text-align: left;
+  margin: 0 auto;
+  width: 550px;
+  cursor: pointer; }
+
+h2 {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #00BCCC;
+  border-bottom: 0;
+  background-color: #00C6D6;
+  margin: 0;
+  color: white;
+  font-weight: normal; }
+
+p {
+  color: grey;
+  background-color: #FEFEFE;
+  padding: 20px;
+  border: 1px solid #00DAEC;
+  margin: 0;
+  font-size: 10pt;
+  height: 50px;
+  overflow: hidden;
+  max-height: 0px; }
+
+.closed {
+  background: #e5feff;
+  overflow: hidden;
+  max-height: 0px;
+  padding: 0;
+  transition-property: max-height;
+  transition-duration: 1s; }
+
+h2:hover {
+  cursor: pointer;
+  background-color: #00BCCC; }
+
+.opened {
+  max-height: 50px;
+  transition-property: max-height;
+  transition-duration: 1s; }
