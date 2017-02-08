@@ -15,4 +15,4 @@
   * Using the `click` function triggers the CSS transitions
 
 
-  https://github.com/cv00132/seventh-project
+https://cv00132.github.io/seventh-project/
